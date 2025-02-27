@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 50px 38px;
+}
+main {
+    height: 100vh;
+    background: rgb(17, 2, 42); 
+}
+.mainContent{
+    height: 80vh;
+    padding: 80px 56px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1.2fr 1fr 1fr;
+}
+.first{
+    background: rgb(3, 38, 38);
+    grid-row: span 3;
+    padding: 34px 0;
+}
+.second{
+    grid-row: span 2;
+}
+.third{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    padding: 0 34px;
+}
+.fourth{
+    grid-row: span 2;
+}
+.fifth{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    padding: 0 34px;
+}
+.first nav{
+    display: flex;
+    gap: 4.2rem;
+    justify-content: center;
+    /* Justify-content is for horizontal alignment. */
+}
+.first a{
+    color: #727171;
+    text-decoration: none;
+}
+.first a:hover{
+    color: rgb(205, 195, 195);
+}
+.first .name{
+    font-family: "Playwrite GB S", cursive;
+    color: white;
+    font-size: 4.2rem;
+    text-align: center;
+    margin-top: 168px;
+    margin-bottom: 2rem;
+}
+.first .bioData {
+    color:  #727171;  
+    padding: 0 75px;
+}
+.first .bioData p{
+    text-align: left;
+}
+.first .bioData div{
+    margin-bottom: 7px;
+}
+img{
+    max-width: 100%;
+}
+.about{
+    color: black;
+    font-size: 2rem;
+}
+.bioData{
+    color: #727171;
+}
+button{
+    width: 82px;
+    color: #727171;
+    background: white;
+    border-radius: 16px;
+    outline-style: hidden;
+    cursor: pointer;
+    padding: 4px 6px;
+    border: 1px solid #00000033;
+}
+button:hover{
+    border: 1px solid #00000080;
+}
